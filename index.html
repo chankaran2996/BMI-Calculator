@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+        <label>
+          Weigth in kg :
+          <input type="number" class="textbox" id="mass"  /> 
+        </label>
+         <br>
+        <label>
+          Heigth in cm:
+          <input type="number" class="textbox" id="Heigth"  />  
+        </label>
+
+        <input type="submit" value="Submit" class="buttun" onclick="cal()"/>
+      <div class="output" id="output"></div>
+    </div>
+    <table >
+        <tr>
+          <th>Category</th>
+          <th>BMI range - kg/m2</th>
+        </tr>
+        <tr>
+          <td>Severe Thinness</td>
+          <td>< 16</td>
+        </tr>
+        <tr>
+          <td>Moderate Thinness</td>
+          <td>16 - 17</td>
+        </tr>
+        <tr>
+            <td>Mild Thinness</td>
+            <td>17 - 18.5</td>
+          </tr>
+          <tr>
+            <td>Normal</td>
+            <td>18.5 - 25</td>
+          </tr>
+          <tr>
+            <td>Overweight</td>
+            <td>25 - 30</td>
+          </tr>
+          <tr>
+            <td>Obese Class I</td>
+            <td>30 - 35</td>
+          </tr>
+          <tr>
+              <td>Obese Class II</td>
+              <td>35 - 40</td>
+            </tr>
+            <tr>
+              <td>Obese Class III</td>
+              <td>>40</td>
+            </tr>
+      </table>
+      
+    <script src="index.js"></script>
+
+  </body>
+</html>
